@@ -1,0 +1,186 @@
+body {
+     font-family: Arial, sans-serif;
+     margin: 20px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     min-height: 100vh;
+     background-image: url('1343284.png');
+     }
+
+
+/* BOTÃO */
+button {
+       padding: 15px 30px;
+       font-size: 18px;
+       background-color: #7a4caf; /* Verde */
+       color: white;
+       border: none;
+       border-radius: 8px;
+       cursor: pointer;
+       transition: background-color 0.3s ease, transform 0.2s ease;
+       box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+       }
+
+button:hover {
+             background-color: #1e00ff; /* Verde mais escuro */
+             transform: translateY(-2px);
+             }
+
+button:active {
+              transform: translateY(0);
+              }
+
+#mensagemMotivacional {
+                       margin-top: 25px;
+                       font-size: 22px;
+                       color: #6300ba; /* Azul vibrante */
+                       font-weight: bold;
+                       max-width: 600px;
+                       padding: 15px;
+                       border: 2px solid #0b00d9;
+                       border-radius: 10px;
+                       background-color: #e0eef7; /* Fundo azul claro para a mensagem */
+                       opacity: 0; /* Começa invisível */
+                       transform: translateY(20px); /* Começa um pouco abaixo */
+                       transition: opacity 0.5s ease, transform 0.5s ease;
+                       }
+
+        #mensagemMotivacional.show {
+                                   opacity: 1; /* Torna visível */
+                                   transform: translateY(0); /* Volta para a posição original */
+                                   }
+
+
+/*Style para textos da página*/
+h1 {
+   color: rgb(89, 0, 162);
+   font-size: 50px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   }
+
+   #frasemotivacional {
+    font-size: 30px;
+     box-shadow: 0 10px 10px rgb(119, 0, 255);
+   }
+
+h2 {
+   color:blue;
+   margin-bottom: 30px;
+   box-shadow: 0 1px 1px rgb(52, 0, 129);
+   }
+
+
+h3 {
+   color: rgb(255, 0, 0);
+   width: 180px;
+   }
+
+h4 {
+   font-weight: bolder;
+   font-size: 20px;
+   font-style: italic;
+   letter-spacing: 5px;
+   background-color: #f0f0f0;
+   border-radius: 10px; 
+   }
+
+p {
+  text-align: justify;
+  font-size: 25px;
+  } 
+
+
+
+/*style para lista */
+ul{
+  font-weight: bold;
+  margin: 0 auto;
+  width: 200px;
+  }
+
+
+
+/* Style para a tabela principal */
+#viagem {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 10px; 
+        }
+
+#paises {
+        width: 29%; /* Largura da tabela */
+        border-collapse: separate; /* ESSENCIAL para border-radius funcionar */
+        border-spacing: 10; /* Remove o espaçamento entre as células */
+        border-radius: 10px; /* Bordas arredondadas de 15px para a tabela */
+        overflow: hidden; /* Garante que o conteúdo que vazar o arredondamento seja cortado */
+        margin: 20px auto; /* Centraliza a tabela na página */
+        border: 5px solid rgb(89, 0, 162); /* Borda externa de 1px para a tabela */
+        box-shadow: 2px 2px 8px rgb(0, 0, 0); /* Sombra suave para a tabela */
+        }      
+
+
+
+/* Style para as células de cabeçalho e dados */
+#paises th,
+#paises td {
+           border: 5px solid blue; /* Borda de 1px sólida e mais clara para as células internas */
+           padding: 7px; /* Espaçamento interno maior */
+           text-align: center; /* Alinhamento central do texto e conteúdo */
+           font-weight: bolder;
+           color: black;
+           background-color: rgb(113, 124, 226);
+           }
+
+/* Style para o cabeçalho da tabela */
+#paises th {
+           background-color: black; /* Cor de fundo do cabeçalho */
+           font-weight: bold;
+           color: white;
+           font-size: 20px;   
+           }
+
+/* Aplica borda arredondada específica nos cantos da tabela */
+#paises th:first-child { /* Canto superior esquerdo do cabeçalho */
+                       border-top-left-radius: 15px;
+                       }
+
+#paises th:last-child { /* Canto superior direito do cabeçalho */
+                      border-top-right-radius: 15px;
+                      }
+
+#paises tr:last-child td:first-child { /* Canto inferior esquerdo da última linha */
+                                     border-bottom-left-radius: 15px;
+                                     }
+
+#paises tr:last-child td:last-child { /* Canto inferior direito da última linha */
+                                    border-bottom-right-radius: 15px;
+                                    }
+
+/*Style para imagem da tabela*/
+#paises td img {
+               border-radius: 8px; /* Arredonda as bordas da imagem também */
+               margin: 0 auto; /* Centraliza a imagem horizontalmente */
+               max-width: 100px; /* Largura máxima para não estourar a célula */
+               height: 100%; /* Mantém a proporção da imagem */
+               width: 100%;
+               position: flex;
+              }
+/*Style para mão indicativa no final da página*/
+#mao{
+    margin-bottom: 1px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
