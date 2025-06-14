@@ -1,81 +1,74 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="pt-br"> <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trabalho</title>
-    <link rel="stylesheet" href="style.css">
-</head> 
+  <!--  <meta name="viewport" content="width=device-width, initial-scale=1.0">   -->
+    <title>Trabalho de Fundamentos de Desenvolvimento de Software</title> 
+    <link rel="stylesheet" href="style.css"> </head>
+<body>
+    <header>
+        <h1>Isaque Oliveira e Silva</h1>
+        <p>Sou Isaque, 32 anos, de São Bernardo do Campo, SP. Minha paixão é a tecnologia, acompanhando sempre as inovações. Adoro viajar para praias para relaxar. Na gastronomia, minhas escolhas são massas e comida japonesa. Em casa, curto YouTube, games e notícias de tecnologia. Sou uma pessoa curiosa e busco constantemente aprender coisas novas.</p>
+    </header>
 
-<body background="https://i.ibb.co/YCPp3jK/background.png">
-    
- <h1>Isaque Oliveira e Silva</h1>
- <br>
+    <main>
+        <section id="cor-fundo">
+            <h2>Selecione uma cor de fundo para a página clicando abaixo</h2>
+            <div id="color-options">
+                <div class="color-box" style="background-color: #FDF5E6;" data-color="#FDF5E6" title="Bege muito claro"></div>
+                <div class="color-box" style="background-color: #E0FFFF;" data-color="#E0FFFF" title="Ciano bem claro"></div>
+                <div class="color-box" style="background-color: #FFE4E1;" data-color="#FFE4E1" title="Rosa pálido"></div>
+            </div>
+        </section>
 
+        <section id="frase-motivacional">
+            <h2>Frase Motivacional</h2> <button id="gerarFraseBtn">Gerar Frase Motivacional</button>
+            <p id="mensagemMotivacional"></p>
+        </section>
 
+        <section id="hobbies">
+            <h2>Meus Hobbies</h2>
+            <ul class="alternada">
+                <li>Academia</li>
+                <li>Viajar</li>
+                <li>Estudar</li>
+            </ul>
+        </section>
 
-<p>Meu nome é Isaque , tenho 32 anos e moro em São Bernardo do Campo, São Paulo. Sempre fui fascinado por como a tecnologia molda o mundo. Gosto de me manter atualizado sobre as últimas tendências em inteligência artificial, novos gadgets e o impacto das inovações na sociedade.
-Gosto muito de viajar, principalmente para lugares que contém muita natureza, preferêncialmente praias, adoro pegar um bronze e tomar um banho de mar para renovar as energias.
-Sou uma pessoa que come de tudo, mas os pratos preferidos são as massas e também gosto muito de comida japonesa.
-Quando tenho tempo que estou em casa, gosto de ver o youtube, jogar vide-game, ver notícias do mundo e tecnologias.
-Sou uma pessoa curiosa e com vontade de aprender. Seja um novo idioma, uma habilidade manual ou um assunto que me desperte interesse, a busca por conhecimento é algo que me move.
-</p>
-<br>
+        <section id="imagem-viajar">
+            <h2>Imagem que Descreve o Hobbie Viajar</h2>
+            <img src="https://i.ibb.co/ZRhdWDTZ/viagem.png" alt="Pessoa sentada na praia observando o mar ao pôr do sol, representando o hobbie de viajar." id="viagem">
+        </section>
 
+        <section id="sonhos-viagem">
+            <h2>Meus Sonhos de Viagem</h2>
+            <table id="paises">
+                <thead>
+                    <tr>
+                        <th>País</th>
+                        <th>Bandeira</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Austrália</td>
+                        <td><img src="https://i.ibb.co/ns9BJFDW/australia.png" alt="Bandeira da Austrália"></td>
+                    </tr>
+                    <tr>
+                        <td>Canadá</td>
+                        <td><img src="https://i.ibb.co/7dF8r7Jg/canada.png" alt="Bandeira do Canadá"></td>
+                    </tr>
+                    <tr>
+                        <td>Estados Unidos da América</td>
+                        <td> <img src="https://i.ibb.co/cShzqZHY/eua.png" alt="Bandeira dos EUA"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
 
-<h1 id="frasemotivacional">Clique no botão abaixo para ter sua frase motivacional</h1>
-   <button id="gerarFraseBtn">Gerar Frase Motivacional</button>
-   <p id="mensagemMotivacional"></p>
+        <section id="site-preferido">
+            <p>Conheça um dos Meus sites Preferidos clicando <a href="https://www.tecmundo.com.br" target="_blank" rel="noopener noreferrer">AQUI</a> <img src="https://i.ibb.co/7xVkjHyT/mao1.png" alt="Ícone de mão apontando para o link" width="40" class="mao-indicativa"></p>
+        </section>
+    </main>
 
-
-
-<h2 id="hobbies">Hobbies</h2>
-
-
-<ul> 
-    <li>Academia</li>
-    <li>Viajar</li>
-    <li>Assistir youtube</li>
-</ul>
-
-
-<h2><br><br>Imagem que Descreve o Hobbie Viajar.</h2>
-<img src="https://i.ibb.co/ZRhdWDTZ/viagem.png" id="viagem">
-
-
-    <h2><br><br>Meus Sonhos de Viagem</h2>
-
-    <table id="paises">
-        <thead>
-            <tr>
-                <th>País</th>
-                <th>Bandeira</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Austrália</td>
-                <td><img src="https://i.ibb.co/ns9BJFDW/australia.png" alt="Bandeira da Austrália" width="100%" height="100%"></td>
-            </tr>
-            <tr>
-                <td>Canadá</td>
-                <td><img src="https://i.ibb.co/7dF8r7Jg/canada.png" alt="Bandeira do Canadá" width="100%" height="100%"></td>
-            </tr>
-            <tr>
-                <td>Estados Unidos da América</td>
-                <td> <img src="https://i.ibb.co/cShzqZHY/eua.png" alt="Bandeira dos EUA" width="100%" height="100%"></td>
-            </tr>
-        </tbody>
-    </table>
-
-<br>
-<br>
-
-
-<h4>Conheça um dos Meus sites Preferidos clicando <a href="https://www.tecmundo.com.br">AQUI </a><img src="https://i.ibb.co/7xVkjHyT/mao1.png" id="mao" width="40" id="mao"> </h3>
-
-
-<script src="script.js"></script>
-
-</body>
+    <script src="script.js"></script> </body>
 </html>
